@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo img{
+    height: 80px;
+}
+header, nav{
+    margin: 5px 10%;
+}
+nav{
+    background: dodgerblue;
+    border-radius: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav> ul li{
+    list-style: none;
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:first-child {
+    border-left: none;
+}
+nav> ul li:first-child a{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+nav ul li:hover>a{
+    background: coral;
+    opacity: .7;
+    color: yellow;
+}
+#main-content, footer{
+    margin: 5px 10%;
+}
+#left-content{
+    width: 34%;
+    float: left;
+    height: 500px;
+    text-align: center;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+#right-content{
+    width: 64%;
+    height: 500px;
+    float: right;
+    text-align: center;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+.image{
+    width: 80%;
+    margin-left: 5%;
+}
+.row-right{
+    margin-top: 30px;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+.title{
+    font-weight: 600;
+    line-height: 50px;
+}
+.text-content{
+    margin: 5px auto;
+    line-height:23px;
+    padding: 5px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
